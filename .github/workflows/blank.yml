@@ -15,4 +15,4 @@ jobs:
     # - name: Instalar dependências
     #   run: pip install -r requirements.txt
     - name: Rodar os testes
-      run: py test_app.py
+      run: pytest
